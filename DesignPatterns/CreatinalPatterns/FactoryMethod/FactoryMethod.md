@@ -9,4 +9,3 @@
 - Padrão bastante utilizado em frameworks, pois define e mantem relacionamentos entre objetos
 - Quando é necessário manter uma padrão de criação de objetos que implementem a mesma operação, mas são instancias diferentes
 - Quando há a necessidade de encapsular a criação de objetos
-

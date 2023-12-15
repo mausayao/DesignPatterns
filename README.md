@@ -4,5 +4,6 @@
 
 ## Padrão Criacional
 
-[Singleton](./DesignPatterns/CreatinalPatterns/Singleton/Singleton.md) 
-[FactoryMethod](./DesignPatterns/CreatinalPatterns/FactoryMethod/Factory\ Method.md )
+[Singleton](./DesignPatterns/CreatinalPatterns/Singleton/Singleton.md)
+
+[FactoryMethod](./DesignPatterns/CreatinalPatterns/FactoryMethod/FactoryMethod.md)
