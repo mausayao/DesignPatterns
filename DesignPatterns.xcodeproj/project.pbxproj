@@ -13,6 +13,8 @@
 		B061E0AE2B06C67900759768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B061E0AD2B06C67900759768 /* Assets.xcassets */; };
 		B061E0B12B06C67900759768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B061E0B02B06C67900759768 /* Preview Assets.xcassets */; };
 		B061E0BB2B06C94F00759768 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B061E0BA2B06C94F00759768 /* Singleton.swift */; };
+		B08BE0962B2BDB59009C4D5A /* FactoryMethod.md in Resources */ = {isa = PBXBuildFile; fileRef = B08BE0952B2BDB59009C4D5A /* FactoryMethod.md */; };
+		B0CE61E12B27DC2C00EE58EE /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE61E02B27DC2C00EE58EE /* FactoryMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		B061E0AD2B06C67900759768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B061E0B02B06C67900759768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B061E0BA2B06C94F00759768 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		B08BE0952B2BDB59009C4D5A /* FactoryMethod.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = FactoryMethod.md; sourceTree = "<group>"; };
+		B0CE61E02B27DC2C00EE58EE /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		B061E0B72B06C85900759768 /* CreatinalPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				B0CE61DF2B27DC0400EE58EE /* FactoryMethod */,
 				B05E82B92B228760002FBB53 /* Singleton */,
 			);
 			path = CreatinalPatterns;
@@ -103,6 +108,15 @@
 			children = (
 			);
 			path = BehaviouralPatterns;
+			sourceTree = "<group>";
+		};
+		B0CE61DF2B27DC0400EE58EE /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				B08BE0952B2BDB59009C4D5A /* FactoryMethod.md */,
+				B0CE61E02B27DC2C00EE58EE /* FactoryMethod.swift */,
+			);
+			path = FactoryMethod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B061E0B12B06C67900759768 /* Preview Assets.xcassets in Resources */,
+				B08BE0962B2BDB59009C4D5A /* FactoryMethod.md in Resources */,
 				B05E82BB2B228779002FBB53 /* Singleton.md in Resources */,
 				B061E0AE2B06C67900759768 /* Assets.xcassets in Resources */,
 			);
@@ -179,6 +194,7 @@
 				B061E0AC2B06C67800759768 /* ContentView.swift in Sources */,
 				B061E0BB2B06C94F00759768 /* Singleton.swift in Sources */,
 				B061E0AA2B06C67800759768 /* DesignPatternsApp.swift in Sources */,
+				B0CE61E12B27DC2C00EE58EE /* FactoryMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
