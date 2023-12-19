@@ -8,7 +8,7 @@
 import Foundation
 
 struct API {
-    static var url = URL(string: "google.con")
+    static var url = URL(string: "google.com")
 }
 
 class NetworkDriver {
@@ -22,5 +22,6 @@ class NetworkDriver {
 }
 
 func singletonClient() {
+    print(#function)
     print(NetworkDriver.shared.baseUrl?.absoluteString ?? "")
 }

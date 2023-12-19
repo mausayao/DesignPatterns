@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B03AFF872B321570006BB6B8 /* AbstractMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03AFF862B321570006BB6B8 /* AbstractMethod.swift */; };
+		B03AFF892B324B5F006BB6B8 /* AbstractMethod.md in Resources */ = {isa = PBXBuildFile; fileRef = B03AFF882B324B5F006BB6B8 /* AbstractMethod.md */; };
 		B05E82BB2B228779002FBB53 /* Singleton.md in Resources */ = {isa = PBXBuildFile; fileRef = B05E82BA2B228779002FBB53 /* Singleton.md */; };
 		B061E0AA2B06C67800759768 /* DesignPatternsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B061E0A92B06C67800759768 /* DesignPatternsApp.swift */; };
 		B061E0AC2B06C67800759768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B061E0AB2B06C67800759768 /* ContentView.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B03AFF862B321570006BB6B8 /* AbstractMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractMethod.swift; sourceTree = "<group>"; };
+		B03AFF882B324B5F006BB6B8 /* AbstractMethod.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = AbstractMethod.md; sourceTree = "<group>"; };
 		B05E82BA2B228779002FBB53 /* Singleton.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Singleton.md; sourceTree = "<group>"; };
 		B061E0A62B06C67800759768 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B061E0A92B06C67800759768 /* DesignPatternsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsApp.swift; sourceTree = "<group>"; };
@@ -40,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B03AFF852B32154B006BB6B8 /* AbstractMethod */ = {
+			isa = PBXGroup;
+			children = (
+				B03AFF882B324B5F006BB6B8 /* AbstractMethod.md */,
+				B03AFF862B321570006BB6B8 /* AbstractMethod.swift */,
+			);
+			path = AbstractMethod;
+			sourceTree = "<group>";
+		};
 		B05E82B92B228760002FBB53 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +83,7 @@
 			children = (
 				B061E0B92B06C87C00759768 /* BehaviouralPatterns */,
 				B061E0B82B06C86900759768 /* StructuralPatterns */,
-				B061E0B72B06C85900759768 /* CreatinalPatterns */,
+				B061E0B72B06C85900759768 /* CreationalPatterns */,
 				B061E0A92B06C67800759768 /* DesignPatternsApp.swift */,
 				B061E0AB2B06C67800759768 /* ContentView.swift */,
 				B061E0AD2B06C67900759768 /* Assets.xcassets */,
@@ -87,13 +100,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B061E0B72B06C85900759768 /* CreatinalPatterns */ = {
+		B061E0B72B06C85900759768 /* CreationalPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				B03AFF852B32154B006BB6B8 /* AbstractMethod */,
 				B0CE61DF2B27DC0400EE58EE /* FactoryMethod */,
 				B05E82B92B228760002FBB53 /* Singleton */,
 			);
-			path = CreatinalPatterns;
+			path = CreationalPatterns;
 			sourceTree = "<group>";
 		};
 		B061E0B82B06C86900759768 /* StructuralPatterns */ = {
@@ -178,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B061E0B12B06C67900759768 /* Preview Assets.xcassets in Resources */,
+				B03AFF892B324B5F006BB6B8 /* AbstractMethod.md in Resources */,
 				B08BE0962B2BDB59009C4D5A /* FactoryMethod.md in Resources */,
 				B05E82BB2B228779002FBB53 /* Singleton.md in Resources */,
 				B061E0AE2B06C67900759768 /* Assets.xcassets in Resources */,
@@ -191,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03AFF872B321570006BB6B8 /* AbstractMethod.swift in Sources */,
 				B061E0AC2B06C67800759768 /* ContentView.swift in Sources */,
 				B061E0BB2B06C94F00759768 /* Singleton.swift in Sources */,
 				B061E0AA2B06C67800759768 /* DesignPatternsApp.swift in Sources */,

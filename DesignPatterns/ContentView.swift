@@ -28,4 +28,8 @@ struct ContentView: View {
 
 func main() {
     singletonClient()
+    print("-----------------------")
+    factoryMethodClient()
+    print("-----------------------")
+    abstractFactoryClient()
 }

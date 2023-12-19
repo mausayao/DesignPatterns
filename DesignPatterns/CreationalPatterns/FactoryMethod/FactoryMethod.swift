@@ -73,6 +73,7 @@ final class FoodHall {
 }
 
 func factoryMethodClient() {
+    print(#function)
     let foodHall = FoodHall()
     foodHall.registerRestaurant(restaurant: Luigis())
     foodHall.registerRestaurant(restaurant: Sukiya())
