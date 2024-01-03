@@ -9,3 +9,5 @@
 [FactoryMethod](./DesignPatterns/CreationalPatterns/FactoryMethod/FactoryMethod.md)
 
 [AbstractMethod](./DesignPatterns/CreationalPatterns/AbstractMethod/AbstractMethod.md)
+
+[Builder](./DesignPatterns/CreationalPatterns/Builder/Builder.md)

@@ -32,4 +32,6 @@ func main() {
     factoryMethodClient()
     print("-----------------------")
     abstractFactoryClient()
+    print("-----------------------")
+    builderClient()
 }
