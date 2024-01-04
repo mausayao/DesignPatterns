@@ -20,6 +20,7 @@
 		B0A0E9F02B4625E80041C2F2 /* Builder.md in Resources */ = {isa = PBXBuildFile; fileRef = B0A0E9EF2B4625E80041C2F2 /* Builder.md */; };
 		B0A0E9F32B462ACF0041C2F2 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0E9F22B462ACF0041C2F2 /* Prototype.swift */; };
 		B0CE61E12B27DC2C00EE58EE /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE61E02B27DC2C00EE58EE /* FactoryMethod.swift */; };
+		B0DA475D2B476FCE00E6F017 /* Prototype.md in Resources */ = {isa = PBXBuildFile; fileRef = B0DA475C2B476FCE00E6F017 /* Prototype.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		B0A0E9EF2B4625E80041C2F2 /* Builder.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Builder.md; sourceTree = "<group>"; };
 		B0A0E9F22B462ACF0041C2F2 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		B0CE61E02B27DC2C00EE58EE /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
+		B0DA475C2B476FCE00E6F017 /* Prototype.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Prototype.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		B0A0E9F12B462ABA0041C2F2 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				B0DA475C2B476FCE00E6F017 /* Prototype.md */,
 				B0A0E9F22B462ACF0041C2F2 /* Prototype.swift */,
 			);
 			path = Prototype;
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B061E0B12B06C67900759768 /* Preview Assets.xcassets in Resources */,
+				B0DA475D2B476FCE00E6F017 /* Prototype.md in Resources */,
 				B03AFF892B324B5F006BB6B8 /* AbstractMethod.md in Resources */,
 				B08BE0962B2BDB59009C4D5A /* FactoryMethod.md in Resources */,
 				B05E82BB2B228779002FBB53 /* Singleton.md in Resources */,
