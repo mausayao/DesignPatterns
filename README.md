@@ -11,3 +11,5 @@
 [AbstractMethod](./DesignPatterns/CreationalPatterns/AbstractMethod/AbstractMethod.md)
 
 [Builder](./DesignPatterns/CreationalPatterns/Builder/Builder.md)
+
+[Prototype](./DesignPatterns/CreationalPatterns/Prototype/Prototype.md)
