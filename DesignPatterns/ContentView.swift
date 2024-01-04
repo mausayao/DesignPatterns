@@ -34,4 +34,6 @@ func main() {
     abstractFactoryClient()
     print("-----------------------")
     builderClient()
+    print("-----------------------")
+    prototypeClient()
 }
