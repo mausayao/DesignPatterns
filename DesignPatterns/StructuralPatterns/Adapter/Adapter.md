@@ -4,10 +4,6 @@
 
 É um padrão de projeto estrutural que permite objetos com interfaces incompatíveis colaborarem entre si.
 
-## Onde é usado
-
-É utilizado quando há a necessidade de comunicação entre interfaces que não possuem compatibilidade.
-
 ## Como implementar
 
 1. O adaptador obtém uma interface, compatível com um dos objetos existentes.
