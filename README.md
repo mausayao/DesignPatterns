@@ -13,3 +13,7 @@
 [Builder](./DesignPatterns/CreationalPatterns/Builder/Builder.md)
 
 [Prototype](./DesignPatterns/CreationalPatterns/Prototype/Prototype.md)
+
+## Padrão Estrutural
+
+[Adapter](./DesignPatterns/StructuralPatterns/Adapter/Adapter.md)

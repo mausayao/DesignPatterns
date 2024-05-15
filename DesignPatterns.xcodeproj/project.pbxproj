@@ -19,6 +19,7 @@
 		B08BE0962B2BDB59009C4D5A /* FactoryMethod.md in Resources */ = {isa = PBXBuildFile; fileRef = B08BE0952B2BDB59009C4D5A /* FactoryMethod.md */; };
 		B0A0E9F02B4625E80041C2F2 /* Builder.md in Resources */ = {isa = PBXBuildFile; fileRef = B0A0E9EF2B4625E80041C2F2 /* Builder.md */; };
 		B0A0E9F32B462ACF0041C2F2 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0E9F22B462ACF0041C2F2 /* Prototype.swift */; };
+		B0CBCDCC2BF2F1380033D69F /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBCDCB2BF2F1380033D69F /* Adapter.swift */; };
 		B0CE61E12B27DC2C00EE58EE /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE61E02B27DC2C00EE58EE /* FactoryMethod.swift */; };
 		B0DA475D2B476FCE00E6F017 /* Prototype.md in Resources */ = {isa = PBXBuildFile; fileRef = B0DA475C2B476FCE00E6F017 /* Prototype.md */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		B08BE0952B2BDB59009C4D5A /* FactoryMethod.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = FactoryMethod.md; sourceTree = "<group>"; };
 		B0A0E9EF2B4625E80041C2F2 /* Builder.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Builder.md; sourceTree = "<group>"; };
 		B0A0E9F22B462ACF0041C2F2 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
+		B0CBCDCB2BF2F1380033D69F /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		B0CE61E02B27DC2C00EE58EE /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 		B0DA475C2B476FCE00E6F017 /* Prototype.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Prototype.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +125,7 @@
 		B061E0B82B06C86900759768 /* StructuralPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				B0CBCDCD2BF2F1530033D69F /* Adapter */,
 			);
 			path = StructuralPatterns;
 			sourceTree = "<group>";
@@ -150,6 +153,14 @@
 				B0A0E9F22B462ACF0041C2F2 /* Prototype.swift */,
 			);
 			path = Prototype;
+			sourceTree = "<group>";
+		};
+		B0CBCDCD2BF2F1530033D69F /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				B0CBCDCB2BF2F1380033D69F /* Adapter.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 		B0CE61DF2B27DC0400EE58EE /* FactoryMethod */ = {
@@ -237,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B03AFF872B321570006BB6B8 /* AbstractMethod.swift in Sources */,
+				B0CBCDCC2BF2F1380033D69F /* Adapter.swift in Sources */,
 				B061E0AC2B06C67800759768 /* ContentView.swift in Sources */,
 				B0A0E9F32B462ACF0041C2F2 /* Prototype.swift in Sources */,
 				B061E0BB2B06C94F00759768 /* Singleton.swift in Sources */,

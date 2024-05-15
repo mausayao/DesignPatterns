@@ -36,4 +36,6 @@ func main() {
     builderClient()
     print("-----------------------")
     prototypeClient()
+    print("---Structural Patterns---")
+    adapterClient()
 }
