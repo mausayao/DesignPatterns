@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B01616622C0696CF00913C87 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01616612C0696CE00913C87 /* Observer.swift */; };
+		B0206C7E2C0907DB00ADBF76 /* ChainOfResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0206C7D2C0907DB00ADBF76 /* ChainOfResponsibility.swift */; };
+		B0206C812C0EAA8E00ADBF76 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0206C802C0EAA8E00ADBF76 /* Command.swift */; };
 		B03AFF872B321570006BB6B8 /* AbstractMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03AFF862B321570006BB6B8 /* AbstractMethod.swift */; };
 		B03AFF892B324B5F006BB6B8 /* AbstractMethod.md in Resources */ = {isa = PBXBuildFile; fileRef = B03AFF882B324B5F006BB6B8 /* AbstractMethod.md */; };
 		B05E82BB2B228779002FBB53 /* Singleton.md in Resources */ = {isa = PBXBuildFile; fileRef = B05E82BA2B228779002FBB53 /* Singleton.md */; };
@@ -20,11 +23,20 @@
 		B0A0E9F02B4625E80041C2F2 /* Builder.md in Resources */ = {isa = PBXBuildFile; fileRef = B0A0E9EF2B4625E80041C2F2 /* Builder.md */; };
 		B0A0E9F32B462ACF0041C2F2 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0E9F22B462ACF0041C2F2 /* Prototype.swift */; };
 		B0CBCDCC2BF2F1380033D69F /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBCDCB2BF2F1380033D69F /* Adapter.swift */; };
+		B0CBCDD02BF43E8F0033D69F /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBCDCF2BF43E8F0033D69F /* Bridge.swift */; };
+		B0CBCDD32BFC23340033D69F /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBCDD22BFC23340033D69F /* Facade.swift */; };
+		B0CBCDD62BFEC4ED0033D69F /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBCDD52BFEC4ED0033D69F /* Decorator.swift */; };
+		B0CBCDD92BFEC9AA0033D69F /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBCDD82BFEC9AA0033D69F /* Composite.swift */; };
+		B0CBCDDC2C0245990033D69F /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBCDDB2C0245990033D69F /* Proxy.swift */; };
+		B0CBCDDF2C02573E0033D69F /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBCDDE2C02573E0033D69F /* Flyweight.swift */; };
 		B0CE61E12B27DC2C00EE58EE /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE61E02B27DC2C00EE58EE /* FactoryMethod.swift */; };
 		B0DA475D2B476FCE00E6F017 /* Prototype.md in Resources */ = {isa = PBXBuildFile; fileRef = B0DA475C2B476FCE00E6F017 /* Prototype.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B01616612C0696CE00913C87 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		B0206C7D2C0907DB00ADBF76 /* ChainOfResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibility.swift; sourceTree = "<group>"; };
+		B0206C802C0EAA8E00ADBF76 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		B03AFF862B321570006BB6B8 /* AbstractMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractMethod.swift; sourceTree = "<group>"; };
 		B03AFF882B324B5F006BB6B8 /* AbstractMethod.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = AbstractMethod.md; sourceTree = "<group>"; };
 		B05E82BA2B228779002FBB53 /* Singleton.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Singleton.md; sourceTree = "<group>"; };
@@ -39,6 +51,12 @@
 		B0A0E9EF2B4625E80041C2F2 /* Builder.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Builder.md; sourceTree = "<group>"; };
 		B0A0E9F22B462ACF0041C2F2 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		B0CBCDCB2BF2F1380033D69F /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		B0CBCDCF2BF43E8F0033D69F /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		B0CBCDD22BFC23340033D69F /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		B0CBCDD52BFEC4ED0033D69F /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		B0CBCDD82BFEC9AA0033D69F /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		B0CBCDDB2C0245990033D69F /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		B0CBCDDE2C02573E0033D69F /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
 		B0CE61E02B27DC2C00EE58EE /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 		B0DA475C2B476FCE00E6F017 /* Prototype.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Prototype.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +72,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B01616602C0696B600913C87 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				B01616612C0696CE00913C87 /* Observer.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		B0206C7C2C0907BE00ADBF76 /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				B0206C7D2C0907DB00ADBF76 /* ChainOfResponsibility.swift */,
+			);
+			path = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		B0206C7F2C0EAA7D00ADBF76 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				B0206C802C0EAA8E00ADBF76 /* Command.swift */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
 		B03AFF852B32154B006BB6B8 /* AbstractMethod */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +167,12 @@
 		B061E0B82B06C86900759768 /* StructuralPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				B0CBCDDD2C0257200033D69F /* Flyweight */,
+				B0CBCDDA2C02458C0033D69F /* Proxy */,
+				B0CBCDD72BFEC9940033D69F /* Composite */,
+				B0CBCDD42BFEC4DD0033D69F /* Decorator */,
+				B0CBCDD12BFC23130033D69F /* Facade */,
+				B0CBCDCE2BF43E7B0033D69F /* Bridge */,
 				B0CBCDCD2BF2F1530033D69F /* Adapter */,
 			);
 			path = StructuralPatterns;
@@ -133,6 +181,9 @@
 		B061E0B92B06C87C00759768 /* BehaviouralPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				B0206C7F2C0EAA7D00ADBF76 /* Command */,
+				B0206C7C2C0907BE00ADBF76 /* ChainOfResponsibility */,
+				B01616602C0696B600913C87 /* Observer */,
 			);
 			path = BehaviouralPatterns;
 			sourceTree = "<group>";
@@ -161,6 +212,54 @@
 				B0CBCDCB2BF2F1380033D69F /* Adapter.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		B0CBCDCE2BF43E7B0033D69F /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				B0CBCDCF2BF43E8F0033D69F /* Bridge.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		B0CBCDD12BFC23130033D69F /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				B0CBCDD22BFC23340033D69F /* Facade.swift */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		B0CBCDD42BFEC4DD0033D69F /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				B0CBCDD52BFEC4ED0033D69F /* Decorator.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		B0CBCDD72BFEC9940033D69F /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				B0CBCDD82BFEC9AA0033D69F /* Composite.swift */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		B0CBCDDA2C02458C0033D69F /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				B0CBCDDB2C0245990033D69F /* Proxy.swift */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		B0CBCDDD2C0257200033D69F /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				B0CBCDDE2C02573E0033D69F /* Flyweight.swift */,
+			);
+			path = Flyweight;
 			sourceTree = "<group>";
 		};
 		B0CE61DF2B27DC0400EE58EE /* FactoryMethod */ = {
@@ -247,13 +346,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0206C812C0EAA8E00ADBF76 /* Command.swift in Sources */,
 				B03AFF872B321570006BB6B8 /* AbstractMethod.swift in Sources */,
+				B01616622C0696CF00913C87 /* Observer.swift in Sources */,
+				B0CBCDDC2C0245990033D69F /* Proxy.swift in Sources */,
+				B0CBCDD92BFEC9AA0033D69F /* Composite.swift in Sources */,
+				B0CBCDDF2C02573E0033D69F /* Flyweight.swift in Sources */,
+				B0CBCDD32BFC23340033D69F /* Facade.swift in Sources */,
 				B0CBCDCC2BF2F1380033D69F /* Adapter.swift in Sources */,
+				B0CBCDD62BFEC4ED0033D69F /* Decorator.swift in Sources */,
 				B061E0AC2B06C67800759768 /* ContentView.swift in Sources */,
 				B0A0E9F32B462ACF0041C2F2 /* Prototype.swift in Sources */,
 				B061E0BB2B06C94F00759768 /* Singleton.swift in Sources */,
+				B0CBCDD02BF43E8F0033D69F /* Bridge.swift in Sources */,
 				B061E0AA2B06C67800759768 /* DesignPatternsApp.swift in Sources */,
 				B0CE61E12B27DC2C00EE58EE /* FactoryMethod.swift in Sources */,
+				B0206C7E2C0907DB00ADBF76 /* ChainOfResponsibility.swift in Sources */,
 				B0815A492B44D08500207AED /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
