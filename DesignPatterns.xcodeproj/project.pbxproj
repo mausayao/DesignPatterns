@@ -12,6 +12,11 @@
 		B0206C812C0EAA8E00ADBF76 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0206C802C0EAA8E00ADBF76 /* Command.swift */; };
 		B03AFF872B321570006BB6B8 /* AbstractMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03AFF862B321570006BB6B8 /* AbstractMethod.swift */; };
 		B03AFF892B324B5F006BB6B8 /* AbstractMethod.md in Resources */ = {isa = PBXBuildFile; fileRef = B03AFF882B324B5F006BB6B8 /* AbstractMethod.md */; };
+		B03E8CD92C22648100E354D2 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E8CD82C22648100E354D2 /* Strategy.swift */; };
+		B03E8CDC2C2512DD00E354D2 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E8CDB2C2512DD00E354D2 /* State.swift */; };
+		B04E45CB2C288224004E8883 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E45CA2C288224004E8883 /* Visitor.swift */; };
+		B04E45CE2C28923A004E8883 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E45CD2C28923A004E8883 /* Mediator.swift */; };
+		B04E45D12C289806004E8883 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E45D02C289806004E8883 /* Memento.swift */; };
 		B05E82BB2B228779002FBB53 /* Singleton.md in Resources */ = {isa = PBXBuildFile; fileRef = B05E82BA2B228779002FBB53 /* Singleton.md */; };
 		B061E0AA2B06C67800759768 /* DesignPatternsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B061E0A92B06C67800759768 /* DesignPatternsApp.swift */; };
 		B061E0AC2B06C67800759768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B061E0AB2B06C67800759768 /* ContentView.swift */; };
@@ -39,6 +44,11 @@
 		B0206C802C0EAA8E00ADBF76 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		B03AFF862B321570006BB6B8 /* AbstractMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractMethod.swift; sourceTree = "<group>"; };
 		B03AFF882B324B5F006BB6B8 /* AbstractMethod.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = AbstractMethod.md; sourceTree = "<group>"; };
+		B03E8CD82C22648100E354D2 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		B03E8CDB2C2512DD00E354D2 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		B04E45CA2C288224004E8883 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		B04E45CD2C28923A004E8883 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		B04E45D02C289806004E8883 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
 		B05E82BA2B228779002FBB53 /* Singleton.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Singleton.md; sourceTree = "<group>"; };
 		B061E0A62B06C67800759768 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B061E0A92B06C67800759768 /* DesignPatternsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsApp.swift; sourceTree = "<group>"; };
@@ -103,6 +113,46 @@
 				B03AFF862B321570006BB6B8 /* AbstractMethod.swift */,
 			);
 			path = AbstractMethod;
+			sourceTree = "<group>";
+		};
+		B03E8CD72C22646A00E354D2 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				B03E8CD82C22648100E354D2 /* Strategy.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		B03E8CDA2C250DE800E354D2 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				B03E8CDB2C2512DD00E354D2 /* State.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		B04E45C92C288214004E8883 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				B04E45CA2C288224004E8883 /* Visitor.swift */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		B04E45CC2C289228004E8883 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				B04E45CD2C28923A004E8883 /* Mediator.swift */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		B04E45CF2C2897E9004E8883 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				B04E45D02C289806004E8883 /* Memento.swift */,
+			);
+			path = Memento;
 			sourceTree = "<group>";
 		};
 		B05E82B92B228760002FBB53 /* Singleton */ = {
@@ -181,6 +231,11 @@
 		B061E0B92B06C87C00759768 /* BehaviouralPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				B04E45CF2C2897E9004E8883 /* Memento */,
+				B04E45CC2C289228004E8883 /* Mediator */,
+				B04E45C92C288214004E8883 /* Visitor */,
+				B03E8CDA2C250DE800E354D2 /* State */,
+				B03E8CD72C22646A00E354D2 /* Strategy */,
 				B0206C7F2C0EAA7D00ADBF76 /* Command */,
 				B0206C7C2C0907BE00ADBF76 /* ChainOfResponsibility */,
 				B01616602C0696B600913C87 /* Observer */,
@@ -352,14 +407,19 @@
 				B0CBCDDC2C0245990033D69F /* Proxy.swift in Sources */,
 				B0CBCDD92BFEC9AA0033D69F /* Composite.swift in Sources */,
 				B0CBCDDF2C02573E0033D69F /* Flyweight.swift in Sources */,
+				B04E45CE2C28923A004E8883 /* Mediator.swift in Sources */,
 				B0CBCDD32BFC23340033D69F /* Facade.swift in Sources */,
 				B0CBCDCC2BF2F1380033D69F /* Adapter.swift in Sources */,
+				B04E45CB2C288224004E8883 /* Visitor.swift in Sources */,
 				B0CBCDD62BFEC4ED0033D69F /* Decorator.swift in Sources */,
 				B061E0AC2B06C67800759768 /* ContentView.swift in Sources */,
+				B03E8CDC2C2512DD00E354D2 /* State.swift in Sources */,
 				B0A0E9F32B462ACF0041C2F2 /* Prototype.swift in Sources */,
 				B061E0BB2B06C94F00759768 /* Singleton.swift in Sources */,
 				B0CBCDD02BF43E8F0033D69F /* Bridge.swift in Sources */,
 				B061E0AA2B06C67800759768 /* DesignPatternsApp.swift in Sources */,
+				B04E45D12C289806004E8883 /* Memento.swift in Sources */,
+				B03E8CD92C22648100E354D2 /* Strategy.swift in Sources */,
 				B0CE61E12B27DC2C00EE58EE /* FactoryMethod.swift in Sources */,
 				B0206C7E2C0907DB00ADBF76 /* ChainOfResponsibility.swift in Sources */,
 				B0815A492B44D08500207AED /* Builder.swift in Sources */,
@@ -496,6 +556,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignPatterns/Preview Content\"";
+				DEVELOPMENT_TEAM = 4K4R79DB5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -524,6 +585,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignPatterns/Preview Content\"";
+				DEVELOPMENT_TEAM = 4K4R79DB5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
